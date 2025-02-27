@@ -9,19 +9,18 @@ The dataset comes from Zillow Research and provides a smoothed, seasonally adjus
 ## Process
 
  • Filtered the dataset for the *Washington-Arlington-Alexandria*, *DC-VA-MD-WV* Metro Area.
- 
+
  • Reshaped the data into long format to analyze rental prices over time.
- 
+
  • Converted date values and calculated a 3-month rolling average to smooth short-term fluctuations.
- 
+
  • Computed summary statistics (mean, median, standard deviation).
- 
+
  • Visualized trends using `ggplot2` with a legend and formatted captions.
 
 `R` was used instead of Excel because the dataset was structured as time series panel data, which required reshaping and rolling calculations that Excel wouldn’t handle as efficiently. The primary goal was to gain experience with R rather than produce a polished analysis.
 
 ## Files
-
 
  • `descriptiveStats_ZORDIcity.R` – R script for data wrangling and visualization.
 
@@ -36,6 +35,7 @@ The dataset comes from Zillow Research and provides a smoothed, seasonally adjus
  • `Seminar1_SO440.Rproj` – RStudio project file.
 
 ![Trends](dmv_rentPtrends_ZORDI.png "Trends")
+
 ## References
 
 • [Zillow Research Data](https://www.zillow.com/research/data/)
